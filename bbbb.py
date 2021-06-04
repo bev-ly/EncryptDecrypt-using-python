@@ -1,4 +1,3 @@
-
 def ccipher(raw_text, key):
     alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     shifted_alphabet = alphabet[26-key:]+alphabet[0:(26-key)]
